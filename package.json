@@ -1,0 +1,77 @@
+{
+  "name": "ng-img-editor",
+  "version": "1.2.3",
+  "description": "An image cropper for Angular",
+  "author": {
+    "name": "Jeffrey K. D. A. Amoah",
+    "email": "jantwiamoah@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jay-Dabo/ng-img-editor"
+  },
+  "homepage": "https://github.com/Jay-Dabo/ng-img-editor",
+  "bugs": {
+    "url": "https://github.com/Jay-Dabo/ng-img-editor/issues"
+  },
+  "keywords": [
+    "angular 6",
+    "angular 7",
+    "angular 8",
+    "angular 9",
+    "angular 10",
+    "angular 11",
+    "angular 12",
+    "angular 13",
+    "angular 14",
+    "image",
+    "image editor",
+    "photo editor",
+    "editor",
+    "cropper",
+    "ng-image-cropper-js",
+    "ngx-cropper",
+    "angular cropper",
+    "angular photo editor",
+    "angular image cropper",
+    "ngx",
+    "ng image editor",
+    "ngx cropper",
+    "image cropper",
+    "popup cropper"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": ">=10.0.0",
+    "@angular/core": ">=10.0.0"
+  },
+  "dependencies": {
+    "ng-image-cropper-js": "^1.5.15",
+    "tslib": "^2.3.0"
+  },
+  "exports": {
+    "./": {
+      "default": "./photo-editor.css"
+    },
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/ng-img-editor.mjs",
+      "es2020": "./fesm2020/ng-img-editor.mjs",
+      "es2015": "./fesm2015/ng-img-editor.mjs",
+      "node": "./fesm2015/ng-img-editor.mjs",
+      "default": "./fesm2020/ng-img-editor.mjs"
+    }
+  },
+  "module": "fesm2015/ng-img-editor.mjs",
+  "es2020": "fesm2020/ng-img-editor.mjs",
+  "esm2020": "esm2020/ng-img-editor.mjs",
+  "fesm2020": "fesm2020/ng-img-editor.mjs",
+  "fesm2015": "fesm2015/ng-img-editor.mjs",
+  "typings": "index.d.ts",
+  "sideEffects": false
+}
+
+
